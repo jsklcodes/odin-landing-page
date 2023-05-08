@@ -144,7 +144,7 @@ section {
 
 .hero__image {
   display: block;
-  width: 100%;
+  width: 50%;
 
   border-radius: 0.8rem;
   transform: rotate(5deg);
