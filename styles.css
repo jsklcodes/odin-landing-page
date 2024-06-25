@@ -130,7 +130,7 @@ body {
 
 /* ============ hero ============ */
 .hero {
-  background: linear-gradient(45deg, #0e0e0ec4, transparent),
+  background: linear-gradient(90deg, #0e0e0eec, #0e0e0eb4),
     url('images/hero-bg.jpg') no-repeat center / cover;
   background-color: #0e0e0e;
   padding-block: 10rem;
