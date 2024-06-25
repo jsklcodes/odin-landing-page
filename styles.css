@@ -121,3 +121,30 @@ body {
 .hero-image {
   width: min(100%, 50rem);
 }
+
+/* ============ random information ============ */
+.random-information {
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+}
+
+.secondary-title {
+  text-align: center;
+  font-size: clamp(2.8rem, 5vw, 3.6rem);
+  font-weight: 800;
+  line-height: 1;
+  color: #1f2937;
+  margin-bottom: 3.6rem;
+}
+
+.random-information-cards {
+  gap: 1.6rem;
+  flex-wrap: wrap;
+}
+
+.random-information-card {
+  min-width: 20rem;
+  flex: 1;
+  color: #616a76;
+  text-align: center;
+}
