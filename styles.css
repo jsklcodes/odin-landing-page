@@ -47,6 +47,18 @@ body {
   width: 100%;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 /* ============ buttons ============ */
 .button {
   border: none;
@@ -147,4 +159,31 @@ body {
   flex: 1;
   color: #616a76;
   text-align: center;
+}
+
+/* ============ testimonial ============ */
+.testimonial {
+  padding-block: 12rem;
+  background-color: #e5e7eb;
+}
+
+.testimonial-text,
+.testimonial-author {
+  max-width: 76rem;
+  margin-inline: auto;
+  color: #1f2937;
+}
+
+.testimonial-text {
+  display: block;
+  font-size: clamp(2.8rem, 5vw, 3.6rem);
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-author {
+  font-weight: 700;
+  font-size: clamp(1.8rem, 5vw, 2.4rem);
+  text-align: end;
 }
