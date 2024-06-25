@@ -42,6 +42,21 @@ body {
   justify-content: space-between;
 }
 
+.img-fluid {
+  display: block;
+  width: 100%;
+}
+
+/* ============ buttons ============ */
+.button {
+  border: none;
+  border-radius: 0.4rem;
+  font: inherit;
+  padding: 0.4rem 2.4rem 0.8rem;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
 /* ============ header / nav ============ */
 .main-header {
   background-color: #1f2937;
@@ -72,4 +87,37 @@ body {
 .nav-link {
   font-size: 1.8rem;
   color: #e5e7eb;
+}
+
+/* ============ hero ============ */
+.hero {
+  background-color: #1f2937;
+  padding-block: 10rem;
+}
+
+.hero .container {
+  gap: 3.8rem;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-title {
+  font-size: clamp(3.2rem, 5vw, 4.8rem);
+  font-weight: 800;
+  line-height: 1;
+  color: #f9faf8;
+  margin-bottom: 1.6rem;
+}
+
+.hero-subtext {
+  font-size: clamp(1.6rem, 5vw, 1.8rem);
+  color: #e5e7eb;
+  margin-bottom: 1.6rem;
+}
+
+.hero-image {
+  width: min(100%, 50rem);
 }
