@@ -28,3 +28,48 @@ body {
   width: min(90%, 102.4rem);
   margin-inline: auto;
 }
+
+/* ============ utils ============ */
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+/* ============ header / nav ============ */
+.main-header {
+  background-color: #1f2937;
+  padding-block: 2rem;
+}
+
+.main-header .container {
+  gap: 1.6rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 2.4rem;
+  color: #f9faf8;
+}
+
+.logo,
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-menu {
+  gap: 3.2rem;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.nav-link {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+}
