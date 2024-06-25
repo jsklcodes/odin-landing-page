@@ -219,6 +219,7 @@ body {
 .cta-text {
   font-size: clamp(1.6rem, 5vw, 1.8rem);
   color: #e5e7eb;
+  max-width: 54rem;
 }
 
 /* ============ footer ============ */
