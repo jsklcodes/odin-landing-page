@@ -68,6 +68,12 @@ body {
   background-color: #477e80;
   color: #f9faf8;
   font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #3d7779;
 }
 
 .button-outline {
